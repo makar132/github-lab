@@ -1,0 +1,10 @@
+# local deletes
+git branch -d dev => Deleted branch dev (was 14d85d5).
+git branch -d test => Deleted branch test (was f8b019b).
+
+
+# remote deletes
+git push origin --delete dev => To https://github.com/makar132/github-lab.git
+ - [deleted]         dev
+git push origin --delete test => To https://github.com/makar132/github-lab.git
+ - [deleted]         test
