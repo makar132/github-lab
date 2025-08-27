@@ -1,0 +1,5 @@
+#local tags
+git tag => v1.7
+#list remote tags
+git ls-remote --tags origin => d6dc5f198158cf6936ca844b3802e2d6543d9047        refs/tags/v1.7
+cec30a27cf6c7cb2e0bee934e58925f0d65dc632        refs/tags/v1.7^{}
